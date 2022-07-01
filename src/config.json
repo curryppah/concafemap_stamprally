@@ -2,7 +2,7 @@
   "title": "Cafemap for Stamp rally",
   "description": "スタンプラリー用の地図アプリ",
   "form_url": "",
-  "logo_image_url": "https://geoloniamaps.github.io/pwamap/icon-pwamap.svg",
+  "logo_image_url": "https://curryppah.github.io/cafemap_stamp_rally/logo.svg",
   "background_image_url": "https://curryppah.github.io/cafemap_stamp_rally/background.jpg",
   "primary_color": "#d2691e",
   "orderby": "time",
