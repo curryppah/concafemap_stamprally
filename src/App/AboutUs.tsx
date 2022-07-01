@@ -14,31 +14,39 @@ const Content = () => {
     <div className="about-us">
       <div className="container">
         <div className="branding">
-          <div className="image"><img src={`${process.env.PUBLIC_URL}/icon-pwamap.svg`} alt=""/></div>
-          <div className="logo">Geolonia PWAマップ</div>
+          <div className="image"><img src={`${process.env.PUBLIC_URL}/logo_teapot.svg`} alt=""/></div>
+          <div className="logo">Cafemap for stamp rally</div>
         </div>
+        <p><b>Cafemap for stamp rally</b> はとあるスタンプラリー企画をより楽しめるようにお手伝いをする地図アプリ（非公式）です。</p>
 
-        <p>Geolonia PWAマップは、Google スプレッドシートを更新するだけでオリジナルの地図アプリを作成することができます。</p>
-        <p>プログラムはオープンソースで公開しているため、自由にカスタマイズしてご利用いただけます。</p>
+        <h2>アプリの特徴と使い方</h2>
+        <ul>
+          <li>スタンプラリー参加店舗の場所がわかる</li>
+          <li>店舗までの道順と距離がわかる</li>
+        </ul>
 
-        <h2> Geolonia PWAマップについて</h2>
-        <p><a href="https://blog.geolonia.com/2022/05/17/pwamap-beta.html" target='_blank' rel="noreferrer">https://blog.geolonia.com/2022/05/17/pwamap-beta.html</a></p>
+        <h3>一覧</h3>
+        <p>スタンプラリー参加店舗の一覧です。スマホの位置情報をONにしておけば近い順に表示されます。</p>
+        
+        <h3>エリア</h3>
+        <p>「大須」「名駅」「栄」「その他」のエリアにしぼって表示します</p>
 
-        <p>また、独自ドメインでの利用やデザインのカスタマイズや利用に必要な緯度・経度情報の提供も有償で別途承ります。ご希望の方は下記までお問い合わせください。</p>
+        <h3>写真から探す</h3>
+        <p>店舗のロゴおよび写真をタップすると店舗詳細が表示されます</p>
 
-        <h2>お問い合わせフォーム</h2>
-        <p><a href="https://geolonia.com/contact/" target='_blank' rel="noreferrer">https://geolonia.com/contact/</a></p>
-        <p>※カスタマイズおよびアプリの作成・利用についてはサポート対象外となります。あらかじめご了承ください。</p>
+        <h3>店舗詳細</h3>
+        <p>住所と公式サイトやSNSアカウントへのリンクがあります。<br>
+        また、「スポットまでの道順」をタップするとGoogleマップで道順を調べられます。</p>
+        
+        <h2>お問い合わせ</h2>
+        <p>情報の訂正やご意見などがありましたら<address>potatician@gmail.com</address>までお知らせください。<br>
+          現状では位置ずれが多いと思いますので随時調整します。</p>
+        <p>基本的に店舗のロゴおよび写真は権利の関係で掲載しておりません。もし提供してくださる店舗がありましたら、ロゴや写真などを1枚お送りください。
+          サイズは350x240pxを標準としていますが、横幅が350px以上であれば構いません。</p>
 
-        {config.form_url?
-          <>
-            <h2>データの更新について</h2>
-            <p>このアプリのデータを更新するには下の「 + 」ボタンを押してフォームに必要な情報を入力してください。</p>
-            <div className="goto-form"><button><FaPlus color="#FFFFFF" onClick={clickHandler} /></button></div>
-          </>
-          :
-          <></>
-        }
+        <h2>Powered by Geolonia</h2>
+        <p>本アプリの開発には株式会社Geolonia様提供の Geolonia PWAマップ を利用しています。</p>
+        <div className="image"><img src={`${process.env.PUBLIC_URL}/icon-pwamap.svg`} alt="株式会社Geolonia"/></div>
       </div>
     </div>
   );
