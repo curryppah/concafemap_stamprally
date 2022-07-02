@@ -1,8 +1,6 @@
 import './AboutUs.scss'
-import config from '../config.json'
 
 const Content = () => {
-
   return (
     <div className="about-us">
       <div className="container">
