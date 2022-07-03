@@ -20,9 +20,9 @@ const Content = (props: Props) => {
     for (let i = 0; i < props.data.length; i++) {
       const shop = props.data[i];
 
-      if (categories.indexOf(shop['カテゴリ']) === -1) {
+      if (categories.indexOf(shop['エリア']) === -1) {
 
-        categories.push(shop['カテゴリ'])
+        categories.push(shop['エリア'])
       }
 
     }
@@ -38,7 +38,7 @@ const Content = (props: Props) => {
       <div className="category">
         <div className="container">
           <div className="category-item">
-            <label htmlFor="category-select">カテゴリから選ぶ</label>
+            <label htmlFor="category-select">エリアから選ぶ</label>
             <Select
               onChange={(e) => {
                 if (e) {
