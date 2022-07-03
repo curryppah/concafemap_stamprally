@@ -6,7 +6,7 @@ const Content = () => {
       <div className="container">
         <div className="branding">
           <div className="image"><img src={`${process.env.PUBLIC_URL}/logo_teapot.svg`} alt=""/></div>
-          <div className="logo">Cafemap for stamp rally</div>
+          <div className="logo">Concafemap for stamp rally</div>
         </div>
         <p><b>Concafemap for stamp rally</b> はとあるスタンプラリー企画をより楽しめるようにお手伝いをする地図アプリです（非公式）</p>
 
