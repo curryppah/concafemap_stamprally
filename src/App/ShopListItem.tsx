@@ -15,7 +15,7 @@ const Content = (props: Props) => {
   }
 
   const distanceTipText = makeDistanceLabelText(props.data.distance)
-  const category = props.data['カテゴリ']
+  const category = props.data['エリア']
   const image = props.data['画像']
 
   const isCategoryPage = props.queryCategory ? true :false
