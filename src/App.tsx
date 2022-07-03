@@ -48,7 +48,7 @@ const App = () => {
         for (let i = 0; i < features.length; i++) {
           const feature = features[i] as Pwamap.ShopData
 
-          if (!feature['緯度'] || !feature['経度'] || !feature['スポット名']) {
+          if (!feature['緯度'] || !feature['経度'] || !feature['店名']) {
             continue;
           }
           if (!feature['緯度'].match(/^-?[0-9]+(\.[0-9]+)?$/)) {
