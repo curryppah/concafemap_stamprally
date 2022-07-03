@@ -23,7 +23,7 @@ const Content = (props: Props) => {
   return (
     <>
       <div className="shop-link">
-        <h2 className="shop-title" onClick={clickHandler}>{props.data['スポット名']}</h2>
+        <h2 className="shop-title" onClick={clickHandler}>{props.data['店名']}</h2>
         <div className='tag-box'>
           {
             !isCategoryPage &&
@@ -38,7 +38,7 @@ const Content = (props: Props) => {
 
         <div style={{ margin: "10px 10px 10px 0" }}>
 
-          { image && <img src={image} alt={props.data['スポット名']} onClick={clickHandler}/>}
+          { image && <img src={image} alt={props.data['店名']} onClick={clickHandler}/>}
 
         </div>
 
