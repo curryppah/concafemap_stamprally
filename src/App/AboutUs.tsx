@@ -11,7 +11,7 @@ const Content = () => {
         
         <h2>アプリについて</h2>
         <p><b>Concafemap for stamp rally</b> はとあるスタンプラリー企画をより楽しめるようにお手伝いをする地図アプリです（非公式）</p>
-        <ul style="margin-left: 2rem">
+        <ul>
           <li>スタンプラリー参加店舗の場所がわかる</li>
           <li>店舗までの道順と距離がわかる</li>
         </ul>
