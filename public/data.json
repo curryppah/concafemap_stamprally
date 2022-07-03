@@ -1,5 +1,5 @@
 {
-  "range": "'スポットデータ'!A1:J1000",
+  "range": "'店舗データ'!A1:J1000",
   "majorDimension": "ROWS",
   "values": [
     [
