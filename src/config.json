@@ -2,10 +2,10 @@
   "title": "Concafemap for stamp rally",
   "description": "スタンプラリーを楽しむための地図アプリ",
   "form_url": "",
-  "logo_image_url": "https://curryppah.github.io/cafemap_stamp_rally/logo_teapot.svg",
-  "background_image_url": "https://curryppah.github.io/cafemap_stamp_rally/background.jpg",
+  "logo_image_url": "https://curryppah.github.io/concafemap_stamprally/logo_teapot.svg",
+  "background_image_url": "https://curryppah.github.io/concafemap_stamprally/background.jpg",
   "primary_color": "#d2691e",
   "orderby": "distance",
   "id": "curryppah",
-  "repository": "cafemap_stamp_rally"
+  "repository": "concafemap_stamprally"
 }
