@@ -5,7 +5,7 @@ declare namespace Pwamap {
     'タイムスタンプ': string;
     '緯度': string;
     '経度': string;
-    'スポット名': string;
+    '店名': string;
     'エリア': string;
     '紹介文': string;
     '画像': string;
