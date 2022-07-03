@@ -78,7 +78,7 @@ const fetchDataSetEnv = async () => {
 
   const sheetList = [
     {
-      name: "スポットデータ",
+      name: "店舗データ",
       exportFilePath: "/public/data.json"
     },
     {
