@@ -66,7 +66,7 @@ const Content = (props: Props) => {
       <div className="container">
         {shop?
           <>
-            <h2>{shop['スポット名']}</h2>
+            <h2>{shop['店名']}</h2>
             <div>
               <span className="nowrap">
                 <Link to={`/list?category=${category}`}>
@@ -78,7 +78,7 @@ const Content = (props: Props) => {
 
             <div style={{margin: "24px 0"}}><Links data={shop} /></div>
 
-            { shop['画像'] && <img src={shop['画像']} alt={shop['スポット名']} style={{width: "100%"}} />}
+            { shop['画像'] && <img src={shop['画像']} alt={shop['店名']} style={{width: "100%"}} />}
 
             <p style={{margin: "24px 0"}}>{toBreakLine(content)}</p>
 
@@ -90,7 +90,7 @@ const Content = (props: Props) => {
               data-navigation-control="off"
             ></div>
 
-            <p><a className="small" href={`http://maps.apple.com/?q=${shop['緯度']},${shop['経度']}`}>スポットまでの道順</a></p>
+            <p><a className="small" href={`http://maps.apple.com/?q=${shop['緯度']},${shop['経度']}`}>店舗までの道順</a></p>
 
           </>
           :
