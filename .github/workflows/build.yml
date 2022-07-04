@@ -11,8 +11,8 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron:  '*/10 * * * *'
-    # 10分ごとに実行
+    - cron:  '0 1,13 * * *'
+    # 10:00/22:00(JST)に実行
 
 jobs:
   ubuntu:
