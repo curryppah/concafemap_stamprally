@@ -50,7 +50,7 @@ const Content = () => {
         <h3>データ収集</h3>
         <p>本アプリではアプリの分析と改善のために「Googleアナリティクス」を導入しており、データ収集のためにCookieを使用しています。
           データは匿名で収集されており個人を特定するものではありません。
-          データが収集・処理される仕組みは<a href="https://policies.google.com/technologies/partner-sites" target="_blank">ポリシーと規約</a>をご覧ください。</p>
+          データが収集・処理される仕組みは<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">ポリシーと規約</a>をご覧ください。</p>
 
         <h3>免責事項</h3>
         <p>本アプリでは可能な範囲で正確な情報を掲載するように努めておりますが正確性や安全性を保証しておりません。
